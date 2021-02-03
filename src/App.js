@@ -1,14 +1,14 @@
-
+import {Switch, Route } from 'react-router-dom';
+import Portal from './layers/Portal'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <div className="App">
-                <header className="App-header">
-                    This is the portal
-                </header>
-            </div>
+      <Switch>
+          <Route      path="/portal" exact component={Portal} />
+          <Route      path="/" exact component={Portal} />
+        </Switch>
     </div>
   );
 }

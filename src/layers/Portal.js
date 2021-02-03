@@ -7,7 +7,8 @@ class Portal extends Component{
     
     render(){
         return(
-            <div>d</div>
+            <div>this is the portal
+            </div>
         )
     }
 }
