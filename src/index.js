@@ -6,7 +6,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-    <BrowserRouter basename={process.env.PUBLIC_URL || ''}>
+    <BrowserRouter basename={'/portal'}>
       <App />
     </BrowserRouter>,
   document.getElementById('root')
